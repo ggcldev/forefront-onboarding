@@ -1,0 +1,66 @@
+.video-container {
+	max-width: 640px;
+	margin: 0 auto;
+}
+/* 
+.video-wrapper {
+	padding: 75px 0 15px 0;
+	margin-bottom: 30px;
+	border: 1px solid #eae0cc;
+	border-radius: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	background-color: #f4f4f6;
+	position: relative;
+}
+
+.video-number {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	font-size: 24px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #ec7505;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+} */
+
+.video-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px; /* Set the desired gap between the items */
+}
+
+.video-wrapper {
+	display: flex;
+	flex-direction: column;
+	background-color: #f4f4f6;
+	border-radius: 5px;
+	padding: 15px 5px 15px 5px;
+}
+
+.video-number {
+	font-size: 32px;
+	font-weight: 500;
+	background-color: #ec7505;
+	width: 60px;
+	height: 50px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.video-section {
+	background-color: #061d37;
+}
+
+.custom-max-width {
+	max-width: 500px; /* Set the desired maximum width */
+}
+
+.custom-image-size {
+	width: 900px; /* Set the desired width */
+	height: auto; /* Maintain aspect ratio */
+}
